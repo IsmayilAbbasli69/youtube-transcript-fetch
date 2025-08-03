@@ -1,6 +1,6 @@
 {
   "name": "youtube-transcript-fetch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple Node.js module to fetch transcripts from YouTube videos without an official API key.",
   "main": "index.js",
   "type": "module",
