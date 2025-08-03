@@ -1,9 +1,12 @@
 {
   "name": "youtube-transcript-fetch",
-  "version": "1.0.0",
-  "description": "A simple Node.js module to fetch transcripts from YouTube videos without an official API key, by parsing initial page data.",
+  "version": "1.0.1",
+  "description": "A simple Node.js module to fetch transcripts from YouTube videos without an official API key.",
   "main": "index.js",
   "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,15 +16,12 @@
   },
   "keywords": [
     "youtube",
-    "scrape",
     "transcript",
     "subtitle",
     "caption",
-    "scraper",
-    "youtube-api",
-    "download"
+    "scraper"
   ],
-  "author": "Ismayil Abbasli (https://github.com/IsmayilAbbasli69)",
+  "author": "Ismayil Abbasli",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IsmayilAbbasli69/youtube-transcript-fetch/issues"

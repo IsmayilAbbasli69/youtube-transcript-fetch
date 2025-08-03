@@ -12,7 +12,7 @@ A lightweight Node.js module to get transcripts from any YouTube video that has 
 ## Installation
 
 ```bash
-npm install yt-transcript-fetch
+npm install youtube-transcript-fetch
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ npm install yt-transcript-fetch
 The package exports a single asynchronous function `getTranscript`.
 
 ```javascript
-import { getTranscript } from 'yt-transcript-fetch';
+import { getTranscript } from 'youtube-transcript-fetch';
 
 const videoUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
 
